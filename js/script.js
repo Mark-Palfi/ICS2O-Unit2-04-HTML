@@ -8,14 +8,14 @@
  */
 function calculate () {
   // input
-  const A = parseInt(document.getElementById('length1-of-triangle').value)
-  const B = parseInt(document.getElementById('length2-of-triangle').value)
-  const C = parseInt(document.getElementById('length3-of-triangle').value)
+  const lineA = parseInt(document.getElementById('length1-of-triangle').value)
+  const lineB = parseInt(document.getElementById('length2-of-triangle').value)
+  const lineC = parseInt(document.getElementById('length3-of-triangle').value)
   const height = parseInt(document.getElementById('height-of-triangle').value)
 
   // process
-  const area = (B * height) / 2
-  const perimeter = A + B + C
+  const area = (lineB * height) / 2
+  const perimeter = lineA + lineB + lineC
 
   // output
-  document.getElementById('area').innerHTML = 'Area is: ' + ("length2-of-triangle" * "height-of-triangle") / 2" + ' cm²'
+  document.getElementById('area').innerHTML = "Area is: " + area + " cm²"
