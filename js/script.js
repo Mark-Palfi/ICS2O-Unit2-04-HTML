@@ -19,4 +19,5 @@ function calculate () {
 
   // output
   document.getElementById('area').innerHTML = "Area is: " + area + " cm²"
+ document.getElementById('perimeter').innerHTML = "Perimeter is: " + perimeter + " cm"
 }
