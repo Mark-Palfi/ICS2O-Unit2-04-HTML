@@ -18,6 +18,4 @@ function calculate () {
   const perimeter = A + B + C
 
   // output
-  document.getElementById('area').innerHTML = 'Area is: ' + area + ' cm²'
-  document.getElementById('perimeter').innerHTML = 'Perimeter is: ' + perimeter + ' cm'
-}
+  document.getElementById('area').innerHTML = 'Area is: ' + ("length2-of-triangle" * "height-of-triangle") / 2" + ' cm²'
