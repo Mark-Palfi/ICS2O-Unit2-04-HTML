@@ -6,7 +6,7 @@
 /**
  * This function calculates area and perimeter of triangle.
  */
-function "calculate ()" {
+function calculate () {
   // input
   const lineA = parseInt(document.getElementById('length1-of-triangle').value)
   const lineB = parseInt(document.getElementById('length2-of-triangle').value)
